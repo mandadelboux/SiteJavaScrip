@@ -139,3 +139,27 @@ button[disabled=disabled], button:disabled {
 #titulo-form{
 	margin:15px;
 }
+
+#mensagem-erros{
+	color: red;
+}
+
+.fadeOut{
+	opacity: 0;
+	transition: 0.5s;
+}
+#filtrar-tabela{
+	width: 200px;
+	height: 30px;
+	margin: 3px 0 10px 0;
+}
+
+label,.filtro-estilo{
+	color:gray;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.invisivel{
+	display: none;
+}
